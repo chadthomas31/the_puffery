@@ -1,1 +1,33 @@
-node_modules
+node_modules/
+.next/
+.turbo/
+.vercel/
+out/
+dist/
+build/
+
+# env & local configs
+.env*
+!.env.example
+
+# logs & coverage
+logs/
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+coverage/
+
+# editor & os
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/*
+!.vscode/settings.json
+!.vscode/extensions.json
+
+# test output
+.pytest_cache/
+.vitest/
+*.tsbuildinfo
