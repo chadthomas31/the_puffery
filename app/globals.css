@@ -1,0 +1,47 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  color-scheme: light dark;
+}
+
+html, body {
+  height: 100%;
+}
+
+body {
+  @apply bg-puff-cream text-puff-brown antialiased;
+}
+
+.dark body {
+  @apply bg-neutral-900 text-neutral-100;
+}
+
+/* Typography */
+.h1 {
+  @apply font-display text-4xl md:text-5xl tracking-tight;
+}
+.h2 {
+  @apply font-display text-3xl md:text-4xl tracking-tight;
+}
+.h3 {
+  @apply font-display text-2xl md:text-3xl tracking-tight;
+}
+
+/* Buttons */
+.btn {
+  @apply inline-flex items-center justify-center rounded-md px-4 py-2 text-sm font-medium transition-colors focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-offset-2 disabled:opacity-50 disabled:pointer-events-none;
+}
+.btn-primary {
+  @apply bg-puff-gold text-white hover:brightness-95 focus-visible:ring-puff-gold;
+}
+.btn-secondary {
+  @apply border border-puff-brown text-puff-brown hover:bg-puff-beige focus-visible:ring-puff-brown;
+}
+
+/* Cards */
+.card {
+  @apply rounded-lg border border-black/5 bg-white shadow-sm dark:bg-neutral-800 dark:border-white/10;
+}
+.card-body { @apply p-4; }

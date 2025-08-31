@@ -1,0 +1,10 @@
+{
+  "$schema": "https://json.schemastore.org/eslintrc",
+  "extends": ["next/core-web-vitals", "eslint:recommended"],
+  "parserOptions": {
+    "ecmaVersion": 2023
+  },
+  "rules": {
+    "@next/next/no-img-element": "off"
+  }
+}

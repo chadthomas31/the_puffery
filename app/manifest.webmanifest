@@ -1,0 +1,11 @@
+{
+  "name": "The Puffery",
+  "short_name": "Puffery",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#FFF3E0",
+  "theme_color": "#E7B045",
+  "icons": [
+    { "src": "/icon.svg", "sizes": "any", "type": "image/svg+xml" }
+  ]
+}
